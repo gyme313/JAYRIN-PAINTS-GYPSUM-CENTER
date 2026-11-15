@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jayrin Paints &amp; Gypsum Centre | Kiambu Town</title>
+  <meta name="description" content="Jayrin Paints & Gypsum Centre in Kiambu Town. Official supplier of Crown, Basco Duracoat, Plascon, and Hermosa paints, gypsum plasterboards, and interior & exterior finishing services." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Playfair Display"', 'serif'],
+          },
+          colors: {
+            brand: {
+              teal: '#0F6B72',
+              tealDark: '#094A50',
+              tealLight: '#E6F4F5',
+              amber: '#F59E0B',
+              amberLight: '#FEF3C7',
+              terracotta: '#D95338',
+              terracottaDark: '#B83D24',
+              cream: '#FAF7F2',
+              ink: '#1E293B',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .hero-pattern {
+      background-color: #094A50;
+      background-image: radial-gradient(circle at 85% 20%, rgba(245, 158, 11, 0.22) 0%, transparent 45%),
+                        radial-gradient(circle at 15% 80%, rgba(217, 83, 56, 0.25) 0%, transparent 45%);
+    }
+    .product-card:hover .product-img {
+      transform: scale(1.04);
+    }
+  </style>
+</head>
+<body class="bg-brand-cream text-brand-ink antialiased selection:bg-brand-amber selection:text-white">
+
+  <!-- Top Info Bar -->
+  <div class="bg-brand-tealDark text-white text-xs sm:text-sm py-2 px-4 border-b border-white/10">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex flex-wrap items-center gap-4">
+        <span class="inline-flex items-center gap-1.5">
+          <svg class="w-4 h-4 text-brand-amber shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          Murutani Building, Biashara Street, Kiambu Town
+        </span>
+        <span class="hidden md:inline-flex items-center gap-1.5 text-white/85">
+          <svg class="w-4 h-4 text-brand-amber shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          Mon – Sat: 8:00 AM – 6:00 PM
+        </span>
+      </div>
+      <div class="flex items-center gap-4 font-medium">
+        <a href="tel:+254751827542" class="hover:text-brand-amber transition">+254 751 827 542</a>
+        <span class="text-white/40">|</span>
+        <a href="tel:+254736299090" class="hover:text-brand-amber transition">+254 736 299 090</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Header -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-sm border-b border-stone-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      <a href="#" class="flex items-center gap-3 group">
+        <img src="logo.png" alt="Jayrin Paints & Gypsum Centre Logo" onerror="this.style.display='none'; document.getElementById('fallback-logo').style.display='flex';" class="h-12 w-12 object-contain rounded-xl bg-brand-cream p-1 border border-stone-200" />
+        <div id="fallback-logo" style="display:none;" class="h-12 w-12 rounded-xl bg-gradient-to-br from-brand-teal via-brand-amber to-brand-terracotta text-white font-display font-bold text-xl items-center justify-center shadow-sm">
+          J
+        </div>
+        <div>
+          <span class="block font-extrabold text-lg sm:text-xl tracking-tight text-brand-tealDark leading-none">JAYRIN</span>
+          <span class="block text-xs font-semibold uppercase tracking-wider text-brand-terracotta mt-0.5">Paints &amp; Gypsum Centre</span>
+        </div>
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-7 text-sm font-semibold text-slate-700">
+        <a href="#products" class="hover:text-brand-teal transition">Paints &amp; Gypsum</a>
+        <a href="#brands" class="hover:text-brand-teal transition">Paint Brands</a>
+        <a href="#services" class="hover:text-brand-teal transition">Finishing Services</a>
+        <a href="#estimator" class="hover:text-brand-teal transition">Material Estimator</a>
+        <a href="#contact" class="hover:text-brand-teal transition">Visit Shop</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/254751827542?text=Hello%20Jayrin%20Paints%20%26%20Gypsum%20Centre%2C%20I%20would%20like%20to%20inquire%20about%20paints%20and%20gypsum%20boards." target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold text-sm px-4 py-2.5 rounded-full shadow-sm transition">
+          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20.52 3.48A11.86 11.86 0 0012.07 0C5.49 0 .16 5.32.16 11.9c0 2.1.55 4.15 1.59 5.95L0 24l6.33-1.66a11.86 11.86 0 005.74 1.46h.01c6.58 0 11.91-5.33 11.91-11.9 0-3.18-1.24-6.17-3.47-8.42zM12.08 21.8h-.01a9.87 9.87 0 01-5.03-1.38l-.36-.21-3.76.98 1-3.66-.24-.38a9.86 9.86 0 01-1.51-5.25c0-5.45 4.44-9.89 9.9-9.89 2.64 0 5.13 1.03 7 2.9a9.82 9.82 0 012.9 7c0 5.46-4.44 9.89-9.89 9.89zm5.43-7.41c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35z"/></svg>
+          <span>WhatsApp Order</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-pattern text-white py-16 sm:py-24 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-12 gap-12 items-center">
+      <div class="lg:col-span-7 space-y-6">
+        <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/15 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold text-brand-amber">
+          <span>Kiambu County's Trusted Finishing Hub</span>
+          <span>•</span>
+          <span>Vibrant Color, Structured Quality, Perfect Spaces</span>
+        </div>
+        <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
+          Premium Paints, Gypsum Boards &amp; Expert Finishes.
+        </h1>
+        <p class="text-base sm:text-lg text-teal-50/90 max-w-2xl leading-relaxed">
+          From genuine <strong>Crown, Basco Duracoat, Plascon &amp; Hermosa</strong> paints to moisture-resistant gypsum ceiling boards and full interior &amp; exterior contracting—Jayrin Paints &amp; Gypsum Centre equips your new build or renovation in Kiambu.
+        </p>
+        <div class="flex flex-wrap gap-4 pt-2">
+          <a href="#products" class="bg-brand-amber hover:bg-amber-400 text-slate-950 font-bold px-6 py-3.5 rounded-xl shadow-lg transition">
+            Browse Products
+          </a>
+          <a href="#estimator" class="bg-white/10 hover:bg-white/20 border border-white/25 text-white font-semibold px-6 py-3.5 rounded-xl transition">
+            Estimate Materials
+          </a>
+        </div>
+        <div class="grid grid-cols-3 gap-4 pt-6 border-t border-white/15 max-w-lg">
+          <div>
+            <p class="text-2xl font-extrabold text-brand-amber">4+ Brands</p>
+            <p class="text-xs text-teal-100">Factory-sealed paints</p>
+          </div>
+          <div>
+            <p class="text-2xl font-extrabold text-brand-amber">9mm &amp; 12mm</p>
+            <p class="text-xs text-teal-100">Standard &amp; moisture gypsum</p>
+          </div>
+          <div>
+            <p class="text-2xl font-extrabold text-brand-amber">Turnkey</p>
+            <p class="text-xs text-teal-100">Supply &amp; installation</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Showcase Card with Real Product Imagery -->
+      <div class="lg:col-span-5">
+        <div class="bg-white text-brand-ink rounded-3xl p-5 sm:p-6 shadow-2xl border border-white/20">
+          <div class="flex items-center justify-between mb-4">
+            <span class="text-xs font-bold uppercase tracking-wider text-brand-teal bg-brand-tealLight px-3 py-1 rounded-full">In Stock at Biashara St</span>
+            <span class="text-xs font-semibold text-slate-500">Kiambu Town</span>
+          </div>
+          <div class="grid grid-cols-2 gap-3">
+            <div class="bg-stone-50 rounded-2xl p-3 border border-stone-200/70 flex flex-col items-center text-center">
+              <img src="https://www.crownpaints.co.ke/wp-content/uploads/2021/05/Crown-Covermatt-Emulsion.png" onerror="this.src='https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=500&q=80'" alt="Crown Covermatt & Silk Paints" class="h-28 w-full object-contain mb-2" />
+              <p class="font-bold text-xs text-slate-800">Crown Paints</p>
+              <p class="text-[11px] text-slate-500">Covermatt, Silk &amp; Gloss</p>
+            </div>
+            <div class="bg-stone-50 rounded-2xl p-3 border border-stone-200/70 flex flex-col items-center text-center">
+              <img src="https://www.duracoat.com/sites/default/files/2022-09/Basco%20Value%20Permagloss%20Enamel%204L.png" onerror="this.src='https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=500&q=80'" alt="Basco Duracoat Paints" class="h-28 w-full object-contain mb-2" />
+              <p class="font-bold text-xs text-slate-800">Basco Duracoat</p>
+              <p class="text-[11px] text-slate-500">Vinyl Matt &amp; Weatherguard</p>
+            </div>
+            <div class="bg-stone-50 rounded-2xl p-3 border border-stone-200/70 flex flex-col items-center text-center">
+              <img src="https://rangi.co.ke/wp-content/uploads/2023/06/Plascon-Vinyl-Matt-Emulsion-Paint-4L.png" onerror="this.src='https://images.unsplash.com/photo-1595814433015-e6f5ce69614e?auto=format&fit=crop&w=500&q=80'" alt="Plascon Emulsion & Exterior Paints" class="h-28 w-full object-contain mb-2" />
+              <p class="font-bold text-xs text-slate-800">Plascon Paints</p>
+              <p class="text-[11px] text-slate-500">Silicone &amp; Trade Wall Cover</p>
+            </div>
+            <div class="bg-stone-50 rounded-2xl p-3 border border-stone-200/70 flex flex-col items-center text-center">
+              <img src="https://www.gypsumceilingkenya.co.ke/wp-content/uploads/2021/03/Gypsum-Boards-Kenya.jpg" onerror="this.src='https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=500&q=80'" alt="Gypsum Plasterboards 9mm & 12mm" class="h-28 w-full object-cover rounded-xl mb-2" />
+              <p class="font-bold text-xs text-slate-800">Gypsum Boards</p>
+              <p class="text-[11px] text-slate-500">9mm, 12.5mm &amp; Studs</p>
+            </div>
+          </div>
+          <a href="https://wa.me/254751827542?text=Hello%20Jayrin%2C%20please%20share%20your%20latest%20price%20list%20for%20paints%20and%20gypsum%20boards." target="_blank" rel="noopener" class="mt-4 w-full inline-flex items-center justify-center gap-2 bg-brand-terracotta hover:bg-brand-terracottaDark text-white font-bold text-sm py-3 rounded-xl transition">
+            Request Today's Price List on WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products Section (Real Product Images + Filter) -->
+  <section id="products" class="py-16 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+      <div>
+        <span class="text-xs font-extrabold uppercase tracking-widest text-brand-terracotta">Our Catalogue</span>
+        <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-brand-tealDark mt-1">Paints, Gypsum Boards &amp; Accessories</h2>
+        <p class="text-slate-600 mt-2 max-w-2xl">Genuine factory-sealed tins, buckets, plasterboards, and ceiling profiles available for immediate pickup or site delivery across Kiambu County.</p>
+      </div>
+      <!-- Category Filter Tabs -->
+      <div class="flex flex-wrap gap-2" id="filter-buttons">
+        <button onclick="filterProducts('all')" data-filter="all" class="filter-btn active bg-brand-teal text-white text-xs sm:text-sm font-bold px-4 py-2 rounded-full transition">All Products</button>
+        <button onclick="filterProducts('paints')" data-filter="paints" class="filter-btn bg-white text-slate-700 hover:bg-stone-100 border border-stone-200 text-xs sm:text-sm font-bold px-4 py-2 rounded-full transition">Paints &amp; Coatings</button>
+        <button onclick="filterProducts('gypsum')" data-filter="gypsum" class="filter-btn bg-white text-slate-700 hover:bg-stone-100 border border-stone-200 text-xs sm:text-sm font-bold px-4 py-2 rounded-full transition">Gypsum &amp; Ceilings</button>
+      </div>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6" id="product-grid">
+      <!-- Product 1: Crown -->
+      <div data-category="paints" class="product-card bg-white rounded-2xl border border-stone-200/90 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+        <div class="h-52 bg-stone-50 p-4 flex items-center justify-center relative overflow-hidden">
+          <span class="absolute top-3 left-3 bg-brand-teal text-white text-[11px] font-bold px-2.5 py-0.5 rounded-full">Crown Paints</span>
+          <img src="https://www.crownpaints.co.ke/wp-content/uploads/2021/05/Crown-Jewel-Vinyl-Matt-Interior-Paint.png" onerror="this.src='https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=600&q=80'" alt="Crown Jewel Vinyl Matt & Permaplast" class="product-img h-40 object-contain transition duration-300" />
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-bold text-base text-slate-900">Crown Vinyl Matt, Silk &amp; Permaplast</h3>
+            <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">Washable interior emulsions, Covermatt, Super Gloss enamel, and weather-resistant Permaplast exterior finishes (4L &amp; 20L).</p>
+          </div>
+          <a href="https://wa.me/254751827542?text=Hello%20Jayrin%2C%20I%20would%20like%20a%20quote%20for%20Crown%20Paints." target="_blank" rel="noopener" class="mt-4 inline-flex items-center justify-center w-full bg-brand-tealLight hover:bg-brand-teal hover:text-white text-brand-tealDark font-bold text-xs py-2.5 rounded-xl transition">
+            Inquire on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Product 2: Basco Duracoat -->
+      <div data-category="paints" class="product-card bg-white rounded-2xl border border-stone-200/90 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+        <div class="h-52 bg-stone-50 p-4 flex items-center justify-center relative overflow-hidden">
+          <span class="absolute top-3 left-3 bg-brand-amber text-slate-950 text-[11px] font-bold px-2.5 py-0.5 rounded-full">Basco Duracoat</span>
+          <img src="https://www.duracoat.com/sites/default/files/2022-09/Basco%20Value%20Permagloss%20Enamel%204L.png" onerror="this.src='https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=600&q=80'" alt="Basco Duracoat Paints" class="product-img h-40 object-contain transition duration-300" />
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-bold text-base text-slate-900">Basco Duracoat Interior &amp; Exterior</h3>
+            <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">Duracoat Vinyl Silk, Vinyl Matt Deluxe, AquaTech Rainshield waterproofing, and Basco Value undercoats &amp; enamels.</p>
+          </div>
+          <a href="https://wa.me/254751827542?text=Hello%20Jayrin%2C%20I%20would%20like%20a%20quote%20for%20Basco%20Duracoat%20Paints." target="_blank" rel="noopener" class="mt-4 inline-flex items-center justify-center w-full bg-brand-tealLight hover:bg-brand-teal hover:text-white text-brand-tealDark font-bold text-xs py-2.5 rounded-xl transition">
+            Inquire on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Product 3: Plascon -->
+      <div data-category="paints" class="product-card bg-white rounded-2xl border border-stone-200/90 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+        <div class="h-52 bg-stone-50 p-4 flex items-center justify-center relative overflow-hidden">
+          <span class="absolute top-3 left-3 bg-brand-terracotta text-white text-[11px] font-bold px-2.5 py-0.5 rounded-full">Plascon</span>
+          <img src="https://rangi.co.ke/wp-content/uploads/2023/06/Plascon-Silicone-Exterior-Protection-4L.png" onerror="this.src='https://images.unsplash.com/photo-1595814433015-e6f5ce69614e?auto=format&fit=crop&w=600&q=80'" alt="Plascon Silicone & Vinyl Matt Paints" class="product-img h-40 object-contain transition duration-300" />
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-bold text-base text-slate-900">Plascon Silicone &amp; Vinyl Emulsions</h3>
+            <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">Plascon Silicone Exterior Protection, Dampseal moisture barrier, Trade Wall Cover, and Super Gloss for wood &amp; metal.</p>
+          </div>
+          <a href="https://wa.me/254751827542?text=Hello%20Jayrin%2C%20I%20would%20like%20a%20quote%20for%20Plascon%20Paints." target="_blank" rel="noopener" class="mt-4 inline-flex items-center justify-center w-full bg-brand-tealLight hover:bg-brand-teal hover:text-white text-brand-tealDark font-bold text-xs py-2.5 rounded-xl transition">
+            Inquire on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Product 4: Hermosa & Specialty -->
+      <div data-category="paints" class="product-card bg-white rounded-2xl border border-stone-200/90 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+        <div class="h-52 bg-stone-50 p-4 flex items-center justify-center relative overflow-hidden">
+          <span class="absolute top-3 left-3 bg-slate-800 text-white text-[11px] font-bold px-2.5 py-0.5 rounded-full">Hermosa &amp; Textures</span>
+          <img src="https://www.crownpaints.co.ke/wp-content/uploads/2021/05/Crown-Ruff-and-Tuff-Textured-Paint.png" onerror="this.src='https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80'" alt="Hermosa Paints and Textured Finishes" class="product-img h-40 object-contain transition duration-300" />
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-bold text-base text-slate-900">Hermosa Paints, Skim Coats &amp; Textures</h3>
+            <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">Full Hermosa decorative range, Ruff &amp; Tuff exterior textured coatings, gypsum skim coats, wood varnishes, and primers.</p>
+          </div>
+          <a href="https://wa.me/254751827542?text=Hello%20Jayrin%2C%20I%20would%20like%20a%20quote%20for%20Hermosa%20Paints%20or%20Textured%20Coatings." target="_blank" rel="noopener" class="mt-4 inline-flex items-center justify-center w-full bg-brand-tealLight hover:bg-brand-teal hover:text-white text-brand-tealDark font-bold text-xs py-2.5 rounded-xl transition">
+            Inquire on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Product 5: Standard & Moisture Gypsum Boards -->
+      <div data-category="gypsum" class="product-card bg-white rounded-2xl border border-stone-200/90 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+        <div class="h-52 bg-stone-50 relative overflow-hidden">
+          <span class="absolute top-3 left-3 z-10 bg-brand-teal text-white text-[11px] font-bold px-2.5 py-0.5 rounded-full">Plasterboards</span>
+          <img src="https://www.gypsumceilingkenya.co.ke/wp-content/uploads/2021/03/Gypsum-Boards-Kenya.jpg" onerror="this.src='https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=600&q=80'" alt="Stack of 9mm and 12mm Gypsum Boards" class="product-img w-full h-full object-cover transition duration-300" />
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-bold text-base text-slate-900">Standard 9mm &amp; 12.5mm Gypsum Boards</h3>
+            <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">4ft × 8ft (2400mm × 1200mm) tapered-edge plasterboards for seamless suspended ceilings and acoustic drywall partitions.</p>
+          </div>
+          <a href="https://wa.me/254751827542?text=Hello%20Jayrin%2C%20I%20would%20like%20a%20quote%20for%20Gypsum%20Boards." target="_blank" rel="noopener" class="mt-4 inline-flex items-center justify-center w-full bg-brand-tealLight hover:bg-brand-teal hover:text-white text-brand-tealDark font-bold text-xs py-2.5 rounded-xl transition">
+            Inquire on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Product 6: Moisture & Fire Resistant Boards -->
+      <div data-category="gypsum" class="product-card bg-white rounded-2xl border border-stone-200/90 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+        <div class="h-52 bg-stone-50 relative overflow-hidden">
+          <span class="absolute top-3 left-3 z-10 bg-emerald-700 text-white text-[11px] font-bold px-2.5 py-0.5 rounded-full">Moisture Resistant</span>
+          <img src="https://www.gypsumceilingkenya.co.ke/wp-content/uploads/2021/04/Moisture-Resistant-Gypsum-Board.jpg" onerror="this.src='https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=600&q=80'" alt="Moisture Resistant Green Gypsum Boards" class="product-img w-full h-full object-cover transition duration-300" />
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-bold text-base text-slate-900">Green Moisture-Resistant Gypsum Boards</h3>
+            <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">Specially treated water-repellent gypsum boards ideal for bathrooms, kitchens, balconies, and damp-prone ceilings.</p>
+          </div>
+          <a href="https://wa.me/254751827542?text=Hello%20Jayrin%2C%20I%20need%20Moisture%20Resistant%20Gypsum%20Boards." target="_blank" rel="noopener" class="mt-4 inline-flex items-center justify-center w-full bg-brand-tealLight hover:bg-brand-teal hover:text-white text-brand-tealDark font-bold text-xs py-2.5 rounded-xl transition">
+            Inquire on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Product 7: Steel Studs, Channels & Accessories -->
+      <div data-category="gypsum" class="product-card bg-white rounded-2xl border border-stone-200/90 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+        <div class="h-52 bg-stone-50 relative overflow-hidden">
+          <span class="absolute top-3 left-3 z-10 bg-brand-amber text-slate-950 text-[11px] font-bold px-2.5 py-0.5 rounded-full">Ceiling Framing</span>
+          <img src="https://www.gypsumceilingkenya.co.ke/wp-content/uploads/2021/03/Gypsum-Stud-Channel-Framing.jpg" onerror="this.src='https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80'" alt="Galvanized Gypsum Studs and Channels" class="product-img w-full h-full object-cover transition duration-300" />
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-bold text-base text-slate-900">Studs, Channels, Cornices &amp; Jointing</h3>
+            <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">Galvanized steel studs, wall angles, drywall screws, fiber joint tape, gypsum filler powder, and decorative cornices.</p>
+          </div>
+          <a href="https://wa.me/254751827542?text=Hello%20Jayrin%2C%20I%20need%20Gypsum%20Studs%2C%20Channels%20and%20Accessories." target="_blank" rel="noopener" class="mt-4 inline-flex items-center justify-center w-full bg-brand-tealLight hover:bg-brand-teal hover:text-white text-brand-tealDark font-bold text-xs py-2.5 rounded-xl transition">
+            Inquire on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Product 8: Modern False Ceiling Design & Lighting -->
+      <div data-category="gypsum" class="product-card bg-white rounded-2xl border border-stone-200/90 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col">
+        <div class="h-52 bg-stone-50 relative overflow-hidden">
+          <span class="absolute top-3 left-3 z-10 bg-brand-terracotta text-white text-[11px] font-bold px-2.5 py-0.5 rounded-full">Completed Finish</span>
+          <img src="https://www.gypsumceilingkenya.co.ke/wp-content/uploads/2021/03/Modern-Gypsum-Ceiling-Design.jpg" onerror="this.src='https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80'" alt="Modern Gypsum False Ceiling with LED Strip Lighting" class="product-img w-full h-full object-cover transition duration-300" />
+        </div>
+        <div class="p-5 flex-1 flex flex-col justify-between">
+          <div>
+            <h3 class="font-bold text-base text-slate-900">Custom Gypsum Ceilings &amp; Bulkheads</h3>
+            <p class="text-xs text-slate-600 mt-1.5 leading-relaxed">Architectural coffered ceilings, recessed LED cove bulkheads, TV feature walls, and smooth skim-coated surfaces.</p>
+          </div>
+          <a href="https://wa.me/254751827542?text=Hello%20Jayrin%2C%20I%20want%20a%20quote%20for%20Gypsum%20Ceiling%20Installation." target="_blank" rel="noopener" class="mt-4 inline-flex items-center justify-center w-full bg-brand-tealLight hover:bg-brand-teal hover:text-white text-brand-tealDark font-bold text-xs py-2.5 rounded-xl transition">
+            Book Site Measurement
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Authorized Paint Brands Strip -->
+  <section id="brands" class="py-12 bg-white border-y border-stone-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <p class="text-center text-xs font-extrabold uppercase tracking-widest text-slate-400 mb-6">Trusted Paint Manufacturers We Stock &amp; Tint</p>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="p-5 rounded-2xl bg-brand-cream border border-stone-200/70 text-center">
+          <p class="font-display font-extrabold text-xl text-brand-tealDark">CROWN PAINTS</p>
+          <p class="text-xs text-slate-500 mt-1">Covermatt • Silk • Permaplast • Gloss</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-brand-cream border border-stone-200/70 text-center">
+          <p class="font-display font-extrabold text-xl text-brand-terracotta">BASCO DURACOAT</p>
+          <p class="text-xs text-slate-500 mt-1">Vinyl Matt • AquaTech • Value Line</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-brand-cream border border-stone-200/70 text-center">
+          <p class="font-display font-extrabold text-xl text-brand-tealDark">PLASCON</p>
+          <p class="text-xs text-slate-500 mt-1">Silicone Exterior • Dampseal • Enamels</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-brand-cream border border-stone-200/70 text-center">
+          <p class="font-display font-extrabold text-xl text-amber-600">HERMOSA</p>
+          <p class="text-xs text-slate-500 mt-1">Interior Emulsions • Primers • Coatings</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interior & Exterior Finishing Services -->
+  <section id="services" class="py-16 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <span class="text-xs font-extrabold uppercase tracking-widest text-brand-terracotta">Contracting &amp; Workmanship</span>
+      <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-brand-tealDark mt-1">New Builds &amp; Renovations in Kiambu</h2>
+      <p class="text-slate-600 mt-2">Beyond supplying materials, our experienced technicians execute clean, durable interior and exterior finishes for residential homes, apartments, and commercial offices.</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-7 rounded-3xl border border-stone-200/90 shadow-sm">
+        <div class="w-12 h-12 rounded-2xl bg-brand-tealLight text-brand-teal flex items-center justify-center font-extrabold text-lg mb-5">01</div>
+        <h3 class="font-bold text-xl text-slate-900">Interior Painting &amp; Skimming</h3>
+        <p class="text-sm text-slate-600 mt-2 leading-relaxed">Full wall preparation, gypsum skimming, sanding, undercoating, and smooth silk or vinyl matt finishes with custom color matching.</p>
+        <ul class="mt-4 space-y-2 text-xs font-semibold text-slate-700">
+          <li>• New residential &amp; apartment blocks</li>
+          <li>• Damp treatment &amp; wall repainting</li>
+          <li>• Accent walls &amp; decorative textures</li>
+        </ul>
+      </div>
+
+      <div class="bg-white p-7 rounded-3xl border border-stone-200/90 shadow-sm">
+        <div class="w-12 h-12 rounded-2xl bg-brand-amberLight text-amber-700 flex items-center justify-center font-extrabold text-lg mb-5">02</div>
+        <h3 class="font-bold text-xl text-slate-900">Gypsum Ceilings &amp; Partitions</h3>
+        <p class="text-sm text-slate-600 mt-2 leading-relaxed">Precision steel framing, suspended false ceilings, recessed LED lighting troughs, acoustic office partitions, and custom TV units.</p>
+        <ul class="mt-4 space-y-2 text-xs font-semibold text-slate-700">
+          <li>• Living room &amp; master bedroom bulkheads</li>
+          <li>• Moisture-resistant kitchen/bath ceilings</li>
+          <li>• Clean jointing &amp; cornice detailing</li>
+        </ul>
+      </div>
+
+      <div class="bg-white p-7 rounded-3xl border border-stone-200/90 shadow-sm">
+        <div class="w-12 h-12 rounded-2xl bg-red-50 text-brand-terracotta flex items-center justify-center font-extrabold text-lg mb-5">03</div>
+        <h3 class="font-bold text-xl text-slate-900">Exterior Weatherproofing &amp; Facades</h3>
+        <p class="text-sm text-slate-600 mt-2 leading-relaxed">Long-lasting exterior weatherguard coatings, Ruff &amp; Tuff textured wall finishes, roof painting, and steel gate/wood enamels.</p>
+        <ul class="mt-4 space-y-2 text-xs font-semibold text-slate-700">
+          <li>• Silicone &amp; elastomeric rain protection</li>
+          <li>• Perimeter wall &amp; cabro/metal coatings</li>
+          <li>• Full exterior renovation makeovers</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Material Estimator -->
+  <section id="estimator" class="py-16 bg-brand-tealDark text-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-8 items-center">
+        <div class="lg:col-span-5 space-y-3">
+          <span class="text-xs font-extrabold uppercase tracking-widest text-brand-amber">Quick Planning Tool</span>
+          <h2 class="font-display text-3xl font-extrabold">Paint &amp; Gypsum Estimator</h2>
+          <p class="text-sm text-teal-100 leading-relaxed">Enter your approximate wall or ceiling area in square meters to estimate how many liters of paint or gypsum boards you need—then send the list straight to our WhatsApp counter.</p>
+        </div>
+
+        <div class="lg:col-span-7 bg-white text-brand-ink rounded-3xl p-6 sm:p-8 shadow-xl">
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">Project Type</label>
+              <select id="est-type" onchange="calculateEstimate()" class="w-full rounded-xl border border-stone-300 px-3.5 py-2.5 text-sm font-semibold focus:outline-none focus:border-brand-teal">
+                <option value="paint">Interior / Exterior Painting (2 Coats)</option>
+                <option value="gypsum">Gypsum False Ceiling (4ft × 8ft Boards)</option>
+                <option value="both">Complete Ceiling + Wall Paint Package</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">Preferred Brand</label>
+              <select id="est-brand" onchange="calculateEstimate()" class="w-full rounded-xl border border-stone-300 px-3.5 py-2.5 text-sm font-semibold focus:outline-none focus:border-brand-teal">
+                <option value="Crown Paints">Crown Paints</option>
+                <option value="Basco Duracoat">Basco Duracoat</option>
+                <option value="Plascon">Plascon</option>
+                <option value="Hermosa">Hermosa</option>
+              </select>
+            </div>
+            <div class="sm:col-span-2">
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">Surface Area (Square Meters — e.g., 50 m²)</label>
+              <input type="number" id="est-area" value="60" min="5" max="5000" oninput="calculateEstimate()" class="w-full rounded-xl border border-stone-300 px-3.5 py-2.5 text-sm font-bold focus:outline-none focus:border-brand-teal" />
+            </div>
+          </div>
+
+          <div class="mt-5 p-4 rounded-2xl bg-brand-cream border border-stone-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <p class="text-xs font-bold uppercase text-slate-500">Estimated Material Requirement</p>
+              <p id="est-result" class="font-extrabold text-lg text-brand-tealDark mt-0.5">20 Litres (1× 20L Bucket) of Crown Paints</p>
+              <p id="est-note" class="text-xs text-slate-500 mt-0.5">Based on ~6 m² per litre for 2 full coats.</p>
+            </div>
+            <a id="est-wa-link" href="#" target="_blank" rel="noopener" class="shrink-0 inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold text-xs px-4 py-3 rounded-xl transition">
+              Send Estimate to WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop Location & Contact -->
+  <section id="contact" class="py-16 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="bg-white rounded-3xl border border-stone-200 shadow-sm overflow-hidden grid lg:grid-cols-12">
+      <div class="lg:col-span-6 p-8 sm:p-10 space-y-6">
+        <div>
+          <span class="text-xs font-extrabold uppercase tracking-widest text-brand-terracotta">Visit Our Showroom</span>
+          <h2 class="font-display text-3xl font-extrabold text-brand-tealDark mt-1">Jayrin Paints &amp; Gypsum Centre</h2>
+          <p class="text-sm text-slate-600 mt-2">Walk into our Kiambu Town shop for colour cards, gypsum samples, and contractor advice, or call/WhatsApp to arrange site delivery.</p>
+        </div>
+
+        <div class="space-y-4 text-sm">
+          <div class="flex items-start gap-3">
+            <div class="w-9 h-9 rounded-xl bg-brand-tealLight text-brand-teal flex items-center justify-center shrink-0 font-bold">📍</div>
+            <div>
+              <p class="font-bold text-slate-900">Physical Shop Location</p>
+              <p class="text-slate-600">Murutani Building, Biashara Street, Kiambu Town</p>
+              <p class="text-xs text-slate-500">P.O. Box 1378 - 00900 Kiambu, Kenya</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3">
+            <div class="w-9 h-9 rounded-xl bg-brand-amberLight text-amber-700 flex items-center justify-center shrink-0 font-bold">🕒</div>
+            <div>
+              <p class="font-bold text-slate-900">Opening Hours</p>
+              <p class="text-slate-600">Monday – Saturday: 8:00 AM – 6:00 PM</p>
+              <p class="text-xs text-slate-500">Closed on Sundays &amp; Public Holidays</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3">
+            <div class="w-9 h-9 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center shrink-0 font-bold">📞</div>
+            <div>
+              <p class="font-bold text-slate-900">Phone, WhatsApp &amp; Email</p>
+              <p class="text-slate-600">WhatsApp &amp; Calls: <a href="tel:+254751827542" class="font-bold text-brand-teal hover:underline">+254 751 827 542</a></p>
+              <p class="text-slate-600">Alternative Line: <a href="tel:+254736299090" class="font-bold text-brand-teal hover:underline">+254 736 299 090</a></p>
+              <p class="text-slate-600">Email: <a href="mailto:jayrincompany@gmail.com" class="text-brand-teal hover:underline">jayrincompany@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="pt-2 flex flex-wrap gap-3">
+          <a href="https://wa.me/254751827542?text=Hello%20Jayrin%20Paints%20%26%20Gypsum%20Centre%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold text-sm px-5 py-3 rounded-xl transition">
+            Chat on WhatsApp (0751 827 542)
+          </a>
+          <a href="tel:+254751827542" class="inline-flex items-center gap-2 bg-brand-tealDark hover:bg-brand-teal text-white font-bold text-sm px-5 py-3 rounded-xl transition">
+            Call Shop Now
+          </a>
+        </div>
+      </div>
+
+      <div class="lg:col-span-6 bg-stone-100 min-h-[320px] relative">
+        <iframe
+          title="Jayrin Paints & Gypsum Centre Kiambu Town Map"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=36.8200%2C-1.1780%2C36.8380%2C-1.1640&amp;layer=mapnik&amp;marker=-1.1714%2C36.8290"
+          class="w-full h-full border-0 min-h-[340px]"
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 text-slate-400 py-10 px-4 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+      <div class="text-center sm:text-left">
+        <p class="text-white font-bold text-sm">Jayrin Paints &amp; Gypsum Centre (Jayrin &amp; Co Limited)</p>
+        <p class="mt-1">Murutani Building, Biashara Street, Kiambu Town • P.O. Box 1378 - 00900 Kiambu</p>
+      </div>
+      <div class="text-center sm:text-right">
+        <p>Mon – Sat: 8:00 AM – 6:00 PM • WhatsApp: +254 751 827 542</p>
+        <p class="mt-1 text-slate-500">© 2026 Jayrin &amp; Co Limited. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Direct WhatsApp Button -->
+  <a href="https://wa.me/254751827542?text=Hello%20Jayrin%20Paints%20%26%20Gypsum%20Centre%2C%20I%20need%20help%20with%20paints%20or%20gypsum%20boards." target="_blank" rel="noopener" aria-label="Chat on WhatsApp" class="fixed bottom-5 right-5 z-50 flex items-center gap-2.5 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold text-sm px-4 py-3.5 rounded-full shadow-2xl transition transform hover:scale-105">
+    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M20.52 3.48A11.86 11.86 0 0012.07 0C5.49 0 .16 5.32.16 11.9c0 2.1.55 4.15 1.59 5.95L0 24l6.33-1.66a11.86 11.86 0 005.74 1.46h.01c6.58 0 11.91-5.33 11.91-11.9 0-3.18-1.24-6.17-3.47-8.42zM12.08 21.8h-.01a9.87 9.87 0 01-5.03-1.38l-.36-.21-3.76.98 1-3.66-.24-.38a9.86 9.86 0 01-1.51-5.25c0-5.45 4.44-9.89 9.9-9.89 2.64 0 5.13 1.03 7 2.9a9.82 9.82 0 012.9 7c0 5.46-4.44 9.89-9.89 9.89zm5.43-7.41c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35z"/></svg>
+    <span class="hidden sm:inline">Chat on WhatsApp</span>
+  </a>
+
+  <script>
+    function filterProducts(category) {
+      const cards = document.querySelectorAll('#product-grid > div');
+      const buttons = document.querySelectorAll('.filter-btn');
+      buttons.forEach(btn => {
+        if (btn.dataset.filter === category) {
+          btn.classList.add('bg-brand-teal', 'text-white');
+          btn.classList.remove('bg-white', 'text-slate-700');
+        } else {
+          btn.classList.remove('bg-brand-teal', 'text-white');
+          btn.classList.add('bg-white', 'text-slate-700');
+        }
+      });
+      cards.forEach(card => {
+        if (category === 'all' || card.dataset.category === category) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    function calculateEstimate() {
+      const type = document.getElementById('est-type').value;
+      const brand = document.getElementById('est-brand').value;
+      const area = Math.max(1, parseFloat(document.getElementById('est-area').value) || 0);
+      const resultEl = document.getElementById('est-result');
+      const noteEl = document.getElementById('est-note');
+      const waLink = document.getElementById('est-wa-link');
+
+      let summary = '';
+      if (type === 'paint') {
+        const liters = Math.ceil(area / 6);
+        const buckets20 = Math.floor(liters / 20);
+        const tins4 = Math.ceil((liters % 20) / 4);
+        summary = `${liters} Litres of ${brand} (${buckets20 > 0 ? buckets20 + '× 20L' : ''}${buckets20 > 0 && tins4 > 0 ? ' + ' : ''}${tins4 > 0 ? tins4 + '× 4L' : ''})`;
+        noteEl.textContent = `Estimated for ${area} m² (2 coats at ~6 m²/L coverage).`;
+      } else if (type === 'gypsum') {
+        const boards = Math.ceil((area / 2.88) * 1.1);
+        const studs = Math.ceil(boards * 2.5);
+        summary = `${boards} Gypsum Boards (4ft×8ft) + ~${studs} Steel Studs`;
+        noteEl.textContent = `Includes 10% cutting allowance for ${area} m² ceiling area.`;
+      } else {
+        const boards = Math.ceil((area / 2.88) * 1.1);
+        const liters = Math.ceil(area / 6);
+        summary = `${boards} Gypsum Boards + ${liters}L of ${brand} Paint`;
+        noteEl.textContent = `Complete ceiling boards & 2-coat paint estimate for ${area} m².`;
+      }
+
+      resultEl.textContent = summary;
+      const msg = encodeURIComponent(`Hello Jayrin Paints & Gypsum Centre, I used your website estimator for ${area} m²: ${summary}. Please share a quote.`);
+      waLink.href = `https://wa.me/254751827542?text=${msg}`;
+    }
+
+    calculateEstimate();
+  </script>
+</body>
+</html>
